@@ -1,3 +1,10 @@
+// customize bootstrap to use 24 columns
+// check node_modules/bootstrap/scss/_variables.scss
+// for all possible customization
+// $grid-columns: 24;
+// compile node_modules/bootstrap/scss/bootstrap.scss
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 nav {
   background: #eee;
   display: flex;
@@ -15,4 +22,18 @@ a {
 
 .active {
   background-color: lightgray;
+}
+
+.totp-table {
+  padding-left: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: black;
+  border-width: 0.2em;
+}
+
+th {
+  padding-left: 0.7em;
+  text-indent: initial;
 }

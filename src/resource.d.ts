@@ -12,4 +12,4 @@ declare module '*.html' {
 
 declare module '*.css';
 declare module '*.scss';
-// declare module 'speakeasy';
+declare module 'totp-generator';
